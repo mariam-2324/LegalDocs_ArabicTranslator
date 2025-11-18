@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LexiVerse Legal Translator</title>
+    <link rel="stylesheet" href="/src/index.css" />
+    <style>
+      /* For Webkit-based browsers (Chrome, Safari) */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f5f9; /* cool-gray-100 */
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: #94a3b8; /* cool-gray-400 */
+        border-radius: 20px;
+        border: 2px solid #f1f5f9; /* cool-gray-100 */
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #64748b; /* cool-gray-500 */
+      }
+      /* For dark mode */
+      html.dark ::-webkit-scrollbar-track {
+        background: #1e293b; /* slate-800 */
+      }
+      html.dark ::-webkit-scrollbar-thumb {
+        background-color: #475569; /* slate-600 */
+        border-color: #1e293b; /* slate-800 */
+      }
+       html.dark ::-webkit-scrollbar-thumb:hover {
+        background-color: #64748b; /* slate-500 */
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1",
+    "vite": "https://aistudiocdn.com/vite@^7.2.2",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-100 dark:bg-gray-900">
+    <h2>New App</h2>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "Copy of LexiVerse Legal Translator",
+  "description": "An AI-powered legal translation and verification app that uses multiple models and a vector database to produce accurate, consistent, and verifiable Arabic translations of legal documents.",
+  "requestFramePermissions": []
+}
